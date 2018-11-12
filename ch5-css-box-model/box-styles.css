@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 p {
   background-color: #dde0e3; /* Light gray */
@@ -33,4 +39,12 @@ div {
   text-align: center;
   border: 2px solid #5d6063;
   border-radius: 5px;
+
+  width: 200px;
+  box-sizing: border-box; /* Add this -- considered a best practice */
+  margin: 20px auto; /* Vertical Horizontal -- Only works on blocks with an explicit width */
+}
+
+body {
+  text-align: center;
 }
